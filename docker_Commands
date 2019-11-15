@@ -1,0 +1,260 @@
+    4  vim docker-compose.yml 
+    5  docker-compose up -d
+    6  docker ps -a
+    7  docker inspect jenkins | grep -i ipaddress
+    8  docker ps -qa | while read a; do des $a; done
+    9  vim docker-compose.yml 
+   11  vim docker-compose.yml 
+   14  docker ps -a
+   15  docker-compose up -d
+   16  docker-compose exec jenkins bash
+   17  docker run -d     -p 0.0.0.0:3306:3306     -e MYSQL_ROOT_PASSWORD=redhat  --network=jenkins  --name "mysql"   -t praveensam/mysql
+   18  docker-compose exec jenkins bash
+   19  docker-compose exec jenkins bash
+   42  docker ps -a
+   43  docker-compose exec jenkins bash
+   45  docker-compose exec jenkins bash
+   47  docker-compose exec jenkins bash
+   48  docker ps -a
+   50  docker-compose exec jenkins bash
+   52  docker-compose exec jenkins bash
+   53  docker ps -a
+   54  docker stop jenkins
+   55  docker start jenkins
+   56  vim jenkins/jenkins.dockerfile 
+   57  docker-compose up -d
+   58  docker-compose build
+   59  vim jenkins/jenkins.dockerfile 
+   60  docker-compose build
+   61  docker-compose up -d
+   62  docker-compose exec jenkins bash
+   68  docker ps -a
+   69  docker -q
+   70  docker -qa
+   71  docker ps -a
+   72  docker rm 8236b8f7fff9
+   73  docker ps -a
+   74  docker ps -q
+   75  docker ps -a
+   76  docker ps -a | perl -ane 'if(/Exited/) {print}'
+   77  docker ps -a | perl -ane 'if(/Exited/) {print}'
+   81  docker ps -a
+  102  docker-compose exec jenkins bash
+  104  docker-compose exec jenkins bash
+  105  docker-compose exec jenkins bash
+  107  docker ps -a
+  108  docker ps -a
+  109  docker-compose exec jenkins bash
+  114  docker-compose exec jenkins bash
+  124  docker ps -a
+  142  docker ps -a
+  143  docker-compose exec jenkins bash
+  146  docker-compose exec jenkins bash
+  150  docker-compose exec jenkins bash
+  152  docker-compose exec jenkins bash
+  162  docker ps -a
+  163  docker exec -it f9e34160da27 bash
+  165  docker exec -it f9e34160da27 bash
+  166  docker exec -it f9e34160da27 bash
+  167  docker ps -a
+  168  docker exec -it f9e34160da27 bash
+  171  docker exec -it f9e34160da27 bash
+  173  docker exec -it f9e34160da27 bash
+  174  docker ps -a
+  175   docker run --name myjenkins -p 8081:8080 -p 50001:50001 --env JENKINS_SLAVE_AGENT_PORT=50001 -dt jenkins/jenkins:lts
+  176  docker ps -a
+  177  docker ps -a
+  179  docker stop myjenkins
+  180  docker rm myjenkins
+  181   docker run --name myjenkins -p 8080:8081 -p 50001:50001 --env JENKINS_SLAVE_AGENT_PORT=50001 -dt jenkins/jenkins:lts
+  182  docker ps -a
+  183  docker ps -a
+  184  docker ps -a
+  185  docker ps -a
+  186  docker ps -a
+  187  docker ps -a
+  188  docker ps -a
+  189  docker stop myjenkins
+  190  docker rm myjenkins
+  191   docker run --name myjenkins -p 8081:8080 -p 50001:50001 --env JENKINS_SLAVE_AGENT_PORT=50001 -dt jenkins/jenkins:lts
+  192  docker ps -a
+  193  docker ps -a
+  194  docker ps -a
+  195  docker ps -a
+  196  docker ps -a
+  197  docker ps -a
+  199  docker stop myjenkins
+  200  docker rm myjenkins
+  201  docker ps -a
+  241  #docker run --name "httpd" -p 80:80
+  242  docker ps -a
+  244  docker run --name "apache" -v /hybris/share/jobs/hybris/builds/:/usr/share/apache2/htdocs -p 80:80 -dt httpd
+  245  docker ps -a
+  247  docker exec -it apache bash
+  248  docker stop apache
+  249  docker rm apache
+  250  docker run --name "apache" -v /hybris/share/jobs/hybris/builds/:/usr/local/apache2/htdocs -p 80:80 -dt httpd
+  251  docker ps -a
+  253  docker exec -it apache bash
+  263  docker exec -it mysql bash
+  281  docker ps -a
+  282  cat /hybris/jenkins/jenkins.dockerfile 
+  283  cat /hybris/docker-compose.yml 
+  284  docker exec -it jenkins bash
+  286  docker exec -it mysql bash
+  314  docker images
+  334  docker stop apache
+  335  docker rm apache
+  336  docker run --name "apache" -v /hybris/share/workspace/hybris-package-dev/temp/hybris/hybrisServer:/usr/local/apache2/htdocs -p 80:80 -dt httpd
+  337  docker ps -a
+  338  docker ps -a
+  343  docker stop apache
+  344  docker rm apache
+  345  docker run --name "apache" -v /hybris/share/workspace/hybris-package-dev/temp/hybris:/usr/local/apache2/htdocs -p 80:80 -dt httpd
+  353  docker ps -a
+  355  docker ps -a
+  356  docker exec -it jenkins bash
+  357  docker exec -it mysql bash
+  358  docker exec -it jenkins bash
+  359  docker ps -a
+  415  docker exec -it mysql bash
+  423  docker ps -a
+  424  docker exec -it mysql bash
+  426  docker ps -a
+  427  docker ps -a
+  436  vim docker-compose.yml
+  438  docker ps -a
+  463  docker ps -a
+  464  docker exec -it jenkins bash 
+  469  vim jenkins/jenkins.dockerfile 
+  471  vim docker-compose.yml 
+  499  vim docker-compose.yml 
+  500  docker-compose up -d jenkins
+  501  docker exec -it jenkins bash 
+  618  docker ps -a
+  619  history | grep -i docker 
+  620  history | grep -i docker  | grep -i jenkins
+  623  vim docker-compose.yml 
+  624  vim docker-compose.yml 
+  628  vim docker-compose.yml 
+  629  docker-compose up jenkins
+  630  docker ps -a
+  631  docker-compose up jenkins -d
+  632  docker-compose up -d jenkins 
+  633  docker ps -a
+  636  docker ps -a
+  637  docker ps -a
+  638  docker logs 12fcdd0ade64
+  642  docker-compose up -d jenkins 
+  644  docker ps -a
+  645  docker stop df2b2c48d43d
+  646  docker rm df2b2c48d43d
+  647  docker ps -a
+  649  docker ps -a
+  682  docker ps -a
+  683  docker ps -a
+  684  docker ps -a
+  685  docker ps -a
+  686  docker ps -a
+  687  docker ps -a
+  688  docker ps -a
+  689  docker ps -a
+  690  docker ps -a
+  691  docker ps -a
+  692  docker ps -a
+  693  docker ps -a
+  694  docker ps -a
+  705  docker ps -a
+  720  docker ps -a
+  722  docker ps -a
+  724  docker ps -a
+  725  docker logs 12fcdd0ade64
+  729  docker-compose up -d jenkins 
+  731  docker ps -a
+  732  docker stop df2b2c48d43d
+  733  docker rm df2b2c48d43d
+  734  docker ps -a
+  736  docker ps -a
+  769  docker ps -a
+  770  docker ps -a
+  771  docker ps -a
+  772  docker ps -a
+  773  docker ps -a
+  774  docker ps -a
+  775  docker ps -a
+  776  docker ps -a
+  777  docker ps -a
+  778  docker ps -a
+  779  docker ps -a
+  780  docker ps -a
+  781  docker ps -a
+  792  docker ps -a
+  807  docker ps -a
+  809  docker ps -a
+  812  docker ps -a
+  813  docker stop 49eca86c9b76
+  868  vim jenkins/jenkins.dockerfile 
+  871  vim jenkins/jenkins.dockerfile 
+  872  docker ps -a
+  911  docker ps -a
+  912  service docker start 
+  913  docker ps -a
+  914  docker restart 49eca86c9b76
+  915  docker ps -a
+  916  docker restart 12fcdd0ade64
+  917  docker ps -a
+  918  docker restart c73a631c94b3
+  931  docker run --name "apache" -v /hybris/share/workspace/hybris-package-dev/temp/hybris:/usr/local/apache2/htdocs -p 80:80 -dt httpd
+  932  docker ps -a
+  933  docker ps -a
+  934  docker ps -a
+  935  docker exec -it hybris_jenkins bash
+  936  docker exec -it 12fcdd0ade64 bash
+  946  docker ps -a
+  948  docker volume create nexus-data
+  950  docker volume delete nexus-data
+  951  docker volume rm nexus-data
+  955  #docker run -d -p 8081:8081 --name nexus -v /nexus:/nexus-data sonatype/nexus3
+  956  docker run -d -p 8081:8081 --name nexus -v /nexus:/nexus-data sonatype/nexus3
+  957  docker ps -a
+  958  docker rm e44542cd1ddf
+  959  docker run -d -p 8081:8081 --name nexus -v /nexus:/nexus-data sonatype/nexus3
+  960  docker ps -a
+  961  docker ps -a
+  962  docker ps -a
+  963  docker logs 27f592a650a1
+  967  docker run --name nexus -d -p 8081:8081 --name nexus -v /nexus:/nexus-data sonatype/nexus3
+  968  docker run -d -p 8081:8081 --name nexus -v /nexus:/nexus-data sonatype/nexus3
+  969  docker rm nexus
+  970  docker run -d -p 8081:8081 --name nexus -v /nexus:/nexus-data sonatype/nexus3
+  971  docker ps -a
+  972  docker ps -a
+  973  docker ps -a
+  974  docker logs 78c9c3779d38
+  975  docker rm nexus
+  976  docker volume create -d local-persist -o mountpoint=/hybris/nexus --name=nexus-data
+  978  docker volume create -d local-persist -o mountpoint=/hybris/nexus --name=nexus-data
+  979  docker run -d -p 8081:8081 --name nexus -v nexus-data:/nexus-data sonatype/nexus3
+  980  docker ps -a
+  981  docker ps -a
+  982  docker ps -a
+  983  docker ps -a
+  984  docker ps -a
+  985  docker ps -a
+  986  docker ps -a
+  987  docker ps -a
+  988  docker ps -a
+  989  docker ps -a
+  990  docker ps -a
+  991  docker ps -a
+  992  docker ps -a
+  993  docker ps -a
+  994  docker ps -a
+  995  docker ps -a
+  996  docker ps -a
+  997  docker exec -it 12fcdd0ade64 bash
+  998  docker exec -it 12fcdd0ade64 bash
+ 1000  docker exec -it 12fcdd0ade64 bash
+ 1001  docker ps -a
+ 1002  history | grep -i docker
+ 1003  history | grep -i docker > /hybris/docker_Commands
